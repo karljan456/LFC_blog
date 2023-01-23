@@ -10,3 +10,15 @@ body{
     header font 
     #333333
 */
+
+.navbar_logo {
+    width: 100px;
+    height: 100px;
+}
+.navbar-container {
+    background-color: #DB0B14;
+    height: 50px;
+    
+}
+
+
