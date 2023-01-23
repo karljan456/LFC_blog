@@ -10,3 +10,12 @@ body{
     header font 
     #333333
 */
+
+.img-fluid{
+    max-width: 100% \9;
+    height: auto;
+}
+
+.footer-row-3{
+    background-color: #b51919;
+}
