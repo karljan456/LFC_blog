@@ -28,13 +28,26 @@ body{
     background-color: #b51919;
 }
 .navbar_logo {
-    width: 100px;
-    height: 100px;
+    width: 64px;
+    height: 86px;
 }
 .navbar-container {
     background-color: #DB0B14;
-    height: 50px;
+    height: 60px;
+    width: 90%;
+    
+    position: relative;
+    display: flex;
     
 }
 
+.carousel {
+    justify-content: center;
+    max-width: 70% ;
+}
 
+.carousel_container {
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
