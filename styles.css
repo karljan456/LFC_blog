@@ -16,6 +16,14 @@ body{
     height: auto;
 }
 
+.footer-row-1{
+    background-color: #F6F6F6;
+}
+
+.footer-row-2{
+    background-color: #dc0714;
+}
+
 .footer-row-3{
     background-color: #b51919;
 }
