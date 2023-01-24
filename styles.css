@@ -1,12 +1,6 @@
 .h1{
     font-family: 'Oswald', sans-serif;
 }
-
-.container-fluid{
-    max-width: 96%;
-    width: fit-content;
-    
-}
 /* 
 body{
     roboto, 
@@ -42,26 +36,32 @@ body{
     background-color: #DB0B14;
     height: 60px;
     width: 100%;
-    max-width: 63%;
-    margin: auto;    
+    max-width: 1200px;
+    margin: auto;
+    
+    position: relative;
+    display: flex;
+    
 }
 
 
 .banner {
-    max-width:63%;
-    display: flex;
-    justify-content: center;
+    margin: auto;
+    max-width: 1200px;
     
 }
 
 .carousel {
-    justify-content: center;
     max-width: 70% ;
+    height: auto;
+    padding: 50px 50px 50px 50px;
+    margin: auto;
 }
 
-.carousel_container {
+/* .carousel_container {
+    display: flex;
     justify-content: center;
     max-width: 100%;
     height: auto;
-}
+} */
 
