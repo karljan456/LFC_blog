@@ -36,18 +36,15 @@ body{
     background-color: #DB0B14;
     height: 60px;
     width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    
-    position: relative;
-    display: flex;
-    
+    max-width: 63%;
+    margin: auto;    
 }
 
 
 .banner {
-    margin: auto;
-    max-width: 1200px;
+    max-width:63%;
+    display: flex;
+    justify-content: center;
     
 }
 
