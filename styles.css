@@ -1,6 +1,12 @@
 .h1{
     font-family: 'Oswald', sans-serif;
 }
+
+.container-fluid{
+    max-width: 96%;
+    width: fit-content;
+    
+}
 /* 
 body{
     roboto, 
