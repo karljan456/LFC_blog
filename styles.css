@@ -12,19 +12,8 @@ body{
     #333333
 */
 
-.footer{
-    color:#ffffff;
-    padding:10px;
-   }
-   
-.img-fluid {
-    max-width: 100% \9;
-    height: auto;
-}
-
 .footer-row-1 {
     background-color: #F6F6F6;
-    padding: 40px 60px 40px 60px;
 }
 /* Row */
 .container-fluid .footer-row-3{
@@ -78,10 +67,6 @@ body{
     display: flex;
 
 }
-
-
-
-
 
 .banner {
     margin: auto;
