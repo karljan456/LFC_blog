@@ -1,5 +1,5 @@
 .wrapper {
-    background-color: beige;
+    background-color: #DC0714;
     max-width: fit-content;
 
 }
@@ -10,8 +10,8 @@
 }
 
 .navbar {
-    background-color: #DC0714;
-    height: auto;
+    background-color: #b51919;
+    height: 60px;
     width: auto;
     margin: auto;
 }
