@@ -50,7 +50,7 @@ body{
     .nav.navbar-nav.navbar-right li a {
     color: #F6F6F6;
 }
-/* footer Row 2*/
+/* footer Row1 trophies*/
 .footer-row-1 {
     background-color: #F6F6F6;
     color:#333;
@@ -59,7 +59,7 @@ body{
     
    /* footer Row 2*/
    .container-fluid .footer-row-2{
-    padding:20px;
+    padding:15px;
     background-color: #dc0714;
    }
    
@@ -169,3 +169,27 @@ body{
     padding-left: 0px;
 }
 
+/* Social icon */
+ .social-icon{
+    fill: #ffffff;
+    filter: invert(1);
+    padding: 3px;
+   }
+
+   /* Img fluid */
+.footer-row-1 .img-fluid{
+    margin-top:30px;
+    box-shadow:0px -5px 10px 1px rgba(51,51,51,0.05);
+    border-radius:10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:15px;
+   }
+   
+   /* Titles */
+   .footer-row-1 .titles{
+    font-weight:700;
+   }
+   
+      
