@@ -19,6 +19,10 @@ body{
 
     padding:20px;
    }
+ 
+   .navigation_bar .navbar .container-fluid{
+    width:1400px;
+   }
    
 /* site Container full width */
 .container-xl{
