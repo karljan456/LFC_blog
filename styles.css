@@ -335,5 +335,28 @@ body{
    .footer-row-1 .titles{
     font-weight:700;
    }
+
+
+
+/***************************ARTICLE STYLES****************************/
+
+.article-container{
+    margin: auto;
+    padding-bottom: 10px;
+}
+.article-image-container {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10px;
+
+}
+
+.article-content {
+    width: 80%;
+    margin: auto;
+    background-color: #f9f9f9;
+    padding: 50px;
+}
+/****************************************************************END ARTICLE********************/
    
       
