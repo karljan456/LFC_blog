@@ -19,6 +19,10 @@ body{
 
     padding:20px;
    }
+ 
+   .navigation_bar .navbar .container-fluid{
+    width:1400px;
+   }
    
 /* site Container full width */
 .container-xl{
@@ -86,6 +90,7 @@ body{
 .footer-row-3 {
     background-color: #b51919;
     padding:20px;
+    font-size: 12px;
 }
 
 .navbar_logo {
