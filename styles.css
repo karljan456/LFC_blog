@@ -224,6 +224,14 @@ body{
     color: #F6F6F6;
 }
 
+.carousel-control-next-icon{
+    background-image: url("./images\\next.png");
+}
+
+.carousel-control-prev-icon{
+    background-image: url("./images\\prev.png");
+}
+
 
 
 
