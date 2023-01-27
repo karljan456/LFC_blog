@@ -264,19 +264,29 @@ body {
 /* Img fluid */
 .container-xl article .img-fluid {
     padding-bottom: 15px;
+   }
+   
+   /* Col */
+   .container-xl .article-grid .col-md-4{
+    box-shadow:0px 0px 10px 5px rgba(0,0,0,0.05);
+    border-radius:2px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+    padding:12px;
+    background-color:#ffffff;
+   }
+
+/*Elliot's quotation**/   
+.quotation{
+    padding: 20px 60px 20px 60px;
+    background-color: #FFD700;
+    
 }
 
-/* Col */
-.container-xl .article-grid .col-md-4 {
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
-    border-radius: 2px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 12px;
-    background-color: #ffffff;
+.quotation-body{
+    font-size: 46px;
 }
-
 /****************************************************************END ARTICLE********************/
 
 
