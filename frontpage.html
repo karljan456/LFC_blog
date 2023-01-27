@@ -17,7 +17,7 @@
 </head>
 
 <body class="wrapper">
-    <div class="container wd-75">
+    <div class="container wd-100">
 
         <!--####################### HEADER Begins ##################-->
         <!--Banner begins Here-->
@@ -34,7 +34,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark ">
 
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand justify-content-start" href="index.html">
                 <!-- Liverpool logo in the navbar-->
                 <img class="navbar_logo" src="images/lfc_logo.png" alt="Liverpool FC logo"></a>
 
@@ -45,12 +45,17 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto topnav ">
+                <ul class="navbar-nav ml-auto topnav justify-content-start">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Schedule</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">News</a>
@@ -71,7 +76,7 @@
                 </ul>
 
                 <!--user login links-->
-                <div class="#navbarSupportedConten user-box justify-content-end">
+                <div class="nav-item user-box justify-content-start">
 
                     <a class="nav-link user-link" href="#">
                         <img src="icons/user.svg" width="18" alt="Signup" class="nav-icon"> Join</a>
@@ -81,9 +86,9 @@
 
 
                 </div><!--user-box login links end-->
-                <div>
-                    <a href="https://www.sc.com/en/"><img src="images/sponser.svg" width="120" alt="sponser"></a>
-                </div>
+                    <div class="nav-item justify-content-start sponser">
+                        <a href="https://www.sc.com/en/"><img src="images/sponser.svg" width="120" alt="sponser"></a>
+                    </div>
 
 
             </div>
@@ -98,7 +103,7 @@
             <div id="carousel" class="carousel slide wd-100">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
+                        aria-current="false" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
@@ -145,21 +150,21 @@
 
 
             <article>
-                <div class="container text-center text-dark article-container ">
+                <div class="container text-center text-dark article-container px-4 ">
                     <div class="row">
-                        <div class="article-grid col-md-4">
+                        <div class="article-grid col-xs-12 col-md-4 col-lg-4">
                             <a href="article.html"><img class="img-fluid" src="images/andy_robertson.png" alt=""></a>
                             <h4>
                                 <b>FEATURE</b> Five takeaways from Andy Robertson's 'We are Liverpool' podcast
                             </h4>
                         </div>
-                        <div class="article-grid  col-md-4">
+                        <div class="article-grid  col-xs-12 col-md-4 col-lg-4">
                             <a href="article.html"><img class="img-fluid" src="images/FA_youth_cup.png" alt=""></a>
                             <h4>
                                 <b>ACADEMY</b> FA Youth Cup fifth-round fixture details confirmed
                             </h4>
                         </div>
-                        <div class="article-grid col-md-4">
+                        <div class="article-grid  col-xs-12 col-md-4 col-lg-4">
                             <a href="article.html"><img class="img-fluid" src="images/matt_beard.png" alt=""></a>
                             <h4>
                                 <b>LFC WOMEN</b> Matt Beard column: Chelsea situation was disappointing - but we'll look
@@ -181,21 +186,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="container text-center text-dark article-container2 ">
+                <div class="container text-center text-dark article-container2 px-4 ">
                     <div class="row">
-                        <div class="article-grid col-md-4">
+                        <div class="article-grid col col-xs-10">
                             <a href="article.html"><img class="img-fluid" src="images/vandijk.png" alt=""></a>
                             <h4>
                                 <b>TRIVIA</b> Can you get 13/13 in our Virgil van Dijk anniversary quiz?
                             </h4>
                         </div>
-                        <div class="article-grid  col-md-4">
+                        <div class="article-grid  col col-xs-10">
                             <a href="article.html"><img class="img-fluid" src="images/shankly.png" alt=""></a>
                             <h4>
                                 <b>TRIVIA</b> 10 quiz questions on Bill Shankly's Liverpool revolution
                             </h4>
                         </div>
-                        <div class="article-grid col-md-4">
+                        <div class=" article-grid  col col-xs-10">
                             <a href="article.html"><img class="img-fluid" src="images/xabi.png" alt=""></a>
                             <h4>
                                 <b>TRIVIA</b> Can you get 10/10 in our Xabi Alonso birthday quiz?
