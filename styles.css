@@ -261,6 +261,11 @@ body {
 
 }
 
+.article-container2 {
+    max-width: 80%;
+    background-color: #dc0714;
+}    
+
 /* Img fluid */
 .container-xl article .img-fluid {
     padding-bottom: 15px;
