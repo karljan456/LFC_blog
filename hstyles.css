@@ -652,3 +652,13 @@ h4 {
       
       
       /**********************mobile styles end************************/
+
+      /*text link*/
+      a:link{
+        color: black;
+        text-decoration: none;
+      }
+
+      a:hover{
+        color: #d00a27;
+      }
