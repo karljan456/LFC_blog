@@ -237,7 +237,9 @@ h4 {
       }
           /* Image */
     .container .slider-wrapper #carousel .carousel-inner .carousel-item img{
-        height: 600px;
+        height:     600px;
+        object-fit: cover ;
+        max-height: auto ;
        }
       /* Carousel control next */
       #carousel .carousel-control-next{
@@ -373,16 +375,6 @@ h4 {
       
       .container{
        background-color:#f9f9f9;
-      }
-      
-      /* top banner Image */
-      .top-banner img{
-       width:100% !important;
-       height:auto !important;
-       max-height:150px;
-       padding-right:0px;
-       padding-left:0px;
-      
       }
       
       /* Nav icon */
@@ -626,10 +618,7 @@ h4 {
         background:#dedede;
        }
          
-        /* Image */
-        .container .slider-wrapper #carousel .carousel-inner .carousel-item img{
-            height:auto !important;
-           }
+
 
        /* Navbar nav mobile*/
        .navbar-nav{
