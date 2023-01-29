@@ -21,6 +21,7 @@ h4 {
     
     /* Navbar supported content */
     #navbarSupportedContent{
+        
      margin-left:0px;
      margin-top:0px;
     }
@@ -322,7 +323,7 @@ h4 {
           
       }
       .header {
-        padding: 50px 50px 30px 50px;
+        padding: 30px 50px 30px 50px;
         margin-bottom:-10px;
         background-color:#B71515;
         margin-bottom:-50px;
@@ -491,9 +492,7 @@ h4 {
        
        
           /* Navbar nav */
-      #navbarSupportedContent .navbar-nav{
-       margin-left:100px !important;
-      }
+
            /* Navbar toggler (active) mobile */
        .navbar .navbar-toggler:active{
         border-style:none;
