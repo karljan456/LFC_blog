@@ -384,7 +384,7 @@ h4 {
       }
 
 
-/***************************ARTICLE_ PAGE STYLES****************************/
+/***************************ARTICLE_ PAGE STYLES (DO NOT TOUCH AGAIN)****************************/
 .new-article {
     height: auto;
     width: 50%;
@@ -392,15 +392,26 @@ h4 {
 }
 
 .article-container {
-    
-    max-width: 90%;
+    max-width: 80%;
     margin: auto;
+    background-color: #f1f1f1;
+    padding-bottom: 10px;
 }    
 
+.article-image-container {
+    margin: auto;
+}
+.article-picture {
+    margin: auto;
+    padding-bottom: 10px;
+    width: auto;
+}
 .article-content {
-    background-color: #f1f1f1;
+    background-color: #f9f9f9;
     padding: 20px;
     text-align: justify;
+    max-width: 900px;
+    margin: auto;
 }
 
 .article-footer {
