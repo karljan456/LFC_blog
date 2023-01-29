@@ -6,9 +6,14 @@ h4 {
     padding-left:5px;
     padding-right:5px;
    }
-   
+   .neverforget {
+    margin-top:60px;
+   }
    @media (max-width:900px){
-   
+   .latest-box{
+    width:100%;
+    margin:10px;
+   }
     /* Nav item */
     .container .navbar #navbarSupportedContent .navbar-nav .nav-item{
      display:inline !important;
@@ -306,14 +311,28 @@ h4 {
       .topbar {
           background-color:#B71515;
           margin-bottom:-50px;
-          padding:70px 50px 0px 50px;
           z-index:20;
+          background-image: url("images/anfield_crop_2.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          height:200px;
+          
       }
+      .header {
+        padding: 50px 50px 30px 50px;
+        margin-bottom:-10px;
+        background-color:#B71515;
+        margin-bottom:-50px;
+        z-index:40;
+        
+    }
       .navbar{
           background:#D00A27;
           color:#fff;
           height:70px;
-          z-index:20;
+          z-index:60;
+          text-transform: uppercase;
       }
       /* Nav link */
       
@@ -495,7 +514,7 @@ h4 {
         padding-left:2px;
        }
        
-       /* User link */
+       /* User link mob*/
 #navbarSupportedContent .nav-item .user-link{
     padding-left:10px;
     padding-right:10px;
