@@ -747,6 +747,11 @@ body.wrapper {
     .footer-row-2{
         display: block;
     }
+
+    /* footer row 3 to stacked in mobile*/
+    .footer-row-3{
+        display: block;
+    }
 }
 
 .carousel-caption {
