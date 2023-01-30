@@ -53,6 +53,7 @@ h4 {
 #navbarSupportedContent .nav-item .user-link {
     padding-left: 5px;
     padding-right: 5px;
+    color:#ffffff;
 }
 
 .neverforget {
@@ -483,7 +484,14 @@ body.wrapper {
     transform: scale(1.05);
     transition: 300ms ease-in-out;
 }
-
+.latest-box:hover {
+    transform: scale(1.1);
+    transition: 300ms ease-in-out;
+}
+.social-icon span:hover {
+    transform: scale(1.5);
+    transition: 300ms ease-in-out;
+}
 
 .article-image-container {
     margin: auto;

@@ -65,10 +65,10 @@
    padding-left:0px;
    padding-right:0px;
    box-shadow:0px 10px 10px 0px rgba(2,2,2,0.3);
-   padding-top:300px;
+   padding-top:320px;
    padding-bottom:50px; 
    border-radius: 3px;
-   height:500px;
+   height:540px;
    width:auto;
   }
   
@@ -82,6 +82,12 @@
    padding-bottom:61px;
    padding-top:200px;
   }
+  .footer-row-2{
+   display: block;
+   padding-top:50px;
+   padding-bottom:50px;
+   font-size:18px;
+}
   
   /* Container */
   .container{
@@ -121,6 +127,10 @@
   .page-heading h1 small{
    font-size:16px;
   }
+  .page-heading h1{
+   font-size:2em;
+
+   }
 
 /* Article content */
 .post-container .article-content{
