@@ -193,7 +193,7 @@ h4 {
       .footer-wrapper footer .footer-row-3{
        text-align:center;
       }
-      
+      /************************trophies***************/
       /* Row */
       .footer-row-1{
        text-align:center;
@@ -204,7 +204,6 @@ h4 {
       /* Column 2/12 */
       .trophy-box{
           box-shadow: 0px -3px 15px 0px rgba(0, 0, 0, 0.05);
-          margin-left: 1px;
           margin-right: 10px;
           margin-top: 10px;
           margin-bottom:10px;
@@ -228,8 +227,12 @@ h4 {
         transition: 300ms ease-in-out;
        }
               /* Column 1/12 trophies width  */
-              .trophy-box{
+    .trophy-box .col-md-1{
     width:12.5% !important;
+   }
+   /* Column 2/12 */
+   .trophy-box .col-md-2{
+    width:15% !important;
    }
              /* Img fluid */
       .footer-wrapper .img-fluid{
