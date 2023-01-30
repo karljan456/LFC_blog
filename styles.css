@@ -21,7 +21,7 @@ h4 {
 @media (max-width:900px) {
     .latest-box {
         width: 100%;
-        margin: 10px;
+        margin: 20px 10px 20px 10px;
     }
 
     /* Nav item */
@@ -250,12 +250,7 @@ h4 {
     width:13.3% !important;
    }
    
-   /* Row */
-   .container .slider-wrapper .footer-wrapper footer .container #trophies .footer-row-1{
-    padding-left:5% !important;
-   }
-   
-   
+
    
 /* Img fluid */
 .footer-wrapper .img-fluid {
