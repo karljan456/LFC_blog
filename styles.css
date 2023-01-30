@@ -2,7 +2,37 @@ html,
 body {
     width: 100vw;
     overflow-x: hidden;
+    font-family: Roboto;
 }
+/* Heading */
+.post-container h1{
+    font-family:Roboto Condensed, sans-serif;
+    font-weight: 600;
+    margin-bottom:30px;
+ 
+   }
+   
+   /* Heading */
+   .post-container h2{
+    font-family:Roboto Condensed, sans-serif;
+    font-weight: 600;
+    margin-bottom:30px;
+   }
+   /* Heading */
+   .post-container h3{
+    font-family:Roboto Condensed, sans-serif;
+    margin-bottom:30px;
+   }
+   /* Heading */
+   .post-container h4{
+    font-family:Roboto Condensed, sans-serif;
+   }
+   /* Container */
+   .body{
+    font-family:'Roboto', sans-serif;
+    margin:0px;
+    height:100vh;
+   }
 
 h4 {
     font-size: 20px;
@@ -741,6 +771,9 @@ body.wrapper {
     /* footer row 2 to stacked in mobile*/
     .footer-row-2{
         display: block;
+        padding-top:50px;
+        padding-bottom:50px;
+        font-size:18px;
     }
 
     /* footer row 3 to stacked in mobile*/
