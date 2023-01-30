@@ -218,7 +218,7 @@ h4 {
 /* Column 2/12 */
 .trophy-box {
     box-shadow: 0px -3px 15px 0px rgba(0, 0, 0, 0.05);
-    margin-right: 10px;
+    margin-right: 3px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 12px;
@@ -241,17 +241,25 @@ h4 {
     transform: scale(1.1);
     transition: 300ms ease-in-out;
 }
-
-/* Column 1/12 trophies width  */
-.trophy-box .col-md-1 {
-    width: 12.5% !important;
-}
-
-/* Column 2/12 */
-.trophy-box .col-md-2 {
-    width: 15% !important;
-}
-
+/* Column 1/12 */
+#trophies .trophy-box{
+    max-width:14%;
+    align-self:center;
+    margin-left:0px;
+   }
+   
+   /* Column 1/12 */
+   .container .slider-wrapper .footer-wrapper footer .container #trophies .footer-row-1 .trophy-box{
+    width:14% !important;
+   }
+   
+   /* Row */
+   .container .slider-wrapper .footer-wrapper footer .container #trophies .footer-row-1{
+    padding-left:5% !important;
+   }
+   
+   
+   
 /* Img fluid */
 .footer-wrapper .img-fluid {
     padding-bottom: 5px;
@@ -472,6 +480,12 @@ body.wrapper {
 /***************************mobile styles, keep bottom******************/
 /************************************************************************/
 @media (max-width:1000px) {
+
+/* Column 1/12 */
+#trophies .trophy-box{
+    max-width:auto;
+   }
+
     .quotation .col-md-12 p {
         font-size: 1.2em;
 
