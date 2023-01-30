@@ -676,7 +676,9 @@ h4 {
        }
        
       }
-      
+      .carousel-caption {
+        display: block;
+      }
       
       /**********************mobile styles end************************/
 
