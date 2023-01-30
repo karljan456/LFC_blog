@@ -745,6 +745,10 @@ body.wrapper {
         margin-top: 20px;
     }
 
+    /* footer row 2 to stacked in mobile*/
+    .footer-row-2{
+        display: block;
+    }
 }
 
 .carousel-caption {
