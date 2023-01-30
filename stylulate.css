@@ -1,4 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Heading */
+.article-container a h4{
+   color:#424242;
+   font-family:'Roboto Condensed', sans-serif;
+   padding-left:3px;
+   padding-right:3px;
+   padding-top:15px;
+   padding-bottom:5px;
+  }
+  
+  @media (max-width:1092px){
+  
+   /* Heading */
+   .article-container a h4{
+    font-size:16px;
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:15px;
+   }
+   
+  }
 
 /* Heading */
 .post-container h1{
@@ -138,7 +159,7 @@
    padding:60px 20px 60px 20px;
 
   }
-  
+
  /* Navbar supported content */
  #navbarSupportedContent{
    max-width:100%;
